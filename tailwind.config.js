@@ -4,7 +4,10 @@ module.exports = {
       "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {colors: {
+            border: 'var(--border)', // this defines `border-border`
+        },
+    },
   },
   plugins: [],
 }
